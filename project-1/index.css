@@ -1,0 +1,59 @@
+header {
+  display:flex;
+  background-color: yellow;
+}
+
+h1 {
+  flex-grow: 1;
+  text-align: center;
+  background-color: pink;
+}
+
+nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: purple;
+}
+nav a {
+  background-color: green;
+}
+
+#mexico {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+#mexico div {
+  width:32%;
+  height:100px;
+  background-color:red;
+  margin:1px;
+}
+ 
+ #paris {
+   display: flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+ }
+ 
+#paris div {
+   background-color: green;
+   height: 300px;
+   width :32%;
+   margin:1px;
+ }
+ 
+ #columbia {
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-between;
+ }
+ 
+#columbia div { 
+   background-color: orange;
+   height :200px;
+   width:32%;
+   margin:1px;
+ }
